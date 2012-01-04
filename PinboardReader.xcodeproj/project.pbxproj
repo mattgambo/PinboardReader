@@ -24,7 +24,6 @@
 		415AA3D314AD859900C70A27 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 415AA3D214AD859900C70A27 /* Constants.m */; };
 		415AA3D714AD87C200C70A27 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 415AA3D614AD87C200C70A27 /* Post.m */; };
 		415AA3DA14AD87CE00C70A27 /* GetAllPosts.m in Sources */ = {isa = PBXBuildFile; fileRef = 415AA3D914AD87CE00C70A27 /* GetAllPosts.m */; };
-		41940BFF14B41CEF00A19BD9 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 41940BFE14B41CEF00A19BD9 /* File */; };
 		41989EF214B2EC740024535F /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 41989EF114B2EC740024535F /* Command.m */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +64,6 @@
 		415AA3D614AD87C200C70A27 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		415AA3D814AD87CE00C70A27 /* GetAllPosts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllPosts.h; sourceTree = "<group>"; };
 		415AA3D914AD87CE00C70A27 /* GetAllPosts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllPosts.m; sourceTree = "<group>"; };
-		41940BFE14B41CEF00A19BD9 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		41989EF014B2EC740024535F /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		41989EF114B2EC740024535F /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,7 +137,6 @@
 				415AA3D214AD859900C70A27 /* Constants.m */,
 				41989EF014B2EC740024535F /* Command.h */,
 				41989EF114B2EC740024535F /* Command.m */,
-				41940BFE14B41CEF00A19BD9 /* File */,
 			);
 			path = PinboardReader;
 			sourceTree = "<group>";
@@ -258,7 +255,6 @@
 				415AA39D14AD83DA00C70A27 /* InfoPlist.strings in Resources */,
 				415AA3A914AD83DA00C70A27 /* ViewController_iPhone.xib in Resources */,
 				415AA3AC14AD83DA00C70A27 /* ViewController_iPad.xib in Resources */,
-				41940BFF14B41CEF00A19BD9 /* File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
