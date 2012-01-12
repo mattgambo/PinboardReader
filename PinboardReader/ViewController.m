@@ -10,6 +10,8 @@
 
 @implementation ViewController
 
+@synthesize label, cmd;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -58,6 +60,18 @@
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
+    }
+}
+
+#pragma mark API Commands
+
+- (IBAction)execGetAllPosts:(id)sender
+{
+    cmd = [[GetAllPosts alloc] init];
+    BOOL test = cmd.getAllPostsForUser;
+    if (test)
+    {
+        return;
     }
 }
 

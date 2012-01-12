@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GetAllPosts.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GetAllPostsDelegate>
+{
+    GetAllPosts *cmd;
+    IBOutlet UILabel *label;
+}
+
+@property (nonatomic, retain) IBOutlet UILabel *label;
+@property (nonatomic, retain) GetAllPosts *cmd;
+
+-(IBAction)execGetAllPosts;
 
 @end

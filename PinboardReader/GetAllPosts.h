@@ -6,15 +6,25 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "Post.h"
+#import "Command.h"
 
-@interface GetAllPosts : NSObject
+@protocol GetAllPostsDelegate <CommandDelegate>
+
+-(void)didGetAllPosts:(NSMutableArray*)allPosts;
+
+@end
+
+@interface GetAllPosts : Command
 {
+    @private
+    id<GetAllPostsDelegate>getAllPostsDelegate;
+    
     NSMutableArray *allPosts;
     Post *post;
 }
 
+@property (assign) id<GetAllPostsDelegate> delegate;
 @property (nonatomic, retain) NSMutableArray *allPosts;
 @property (nonatomic, retain) Post *post;
 

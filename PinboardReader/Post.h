@@ -10,13 +10,13 @@
 
 @interface Post : NSObject
 {
-    NSString *title;
+    NSString *link;
     NSString *description;
     NSString *date;
     NSArray *tags;
 }
 
-@property (nonatomic, retain) NSString *title;
+@property (nonatomic, retain) NSString *link;
 @property (nonatomic, retain) NSString *description;
 @property (nonatomic, retain) NSString *date;
 @property (nonatomic, retain) NSArray *tags;

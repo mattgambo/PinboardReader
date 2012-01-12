@@ -10,7 +10,7 @@
 
 @implementation Post
 
-@synthesize title, description, date, tags;
+@synthesize link, description, date, tags;
 
 
 @end
